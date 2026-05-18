@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.p1 {
+			text-decoration: underline;
+		}
+		.p2 {
+			text-decoration:overline ;
+		}
+		.p3 {
+			text-decoration: underline overline;
+		}
+		.p4{
+			text-decoration: dashed chartreuse;
+		}
+		.p5 {
+			text-decoration: double blue;
+		}
+		.p6 {
+			text-decoration: line-through red;
+		}
+		.div1:hover {
+			border: 2px solid rgb(0, 26, 255);
+			background-color: rgb(255, 0, 234);
+			display: inline-block;
+			color: antiquewhite;
+			padding: 15px;
+			border-radius: 100%;
+			width: 350px;
+			text-align: center;
+		}
+		.div2:active {
+			border: 2px solid rgb(0, 26, 255);
+			background-color: rgb(0, 255, 128);
+			display: inline-block;
+			color: rgb(215, 250, 231);
+			padding: 15px;
+			border-radius: 100%;
+			width: 350px;
+			text-align: center;
+		}
+		.div3:focus {
+			border: 2px solid rgb(208, 255, 0);
+			background-color: rgb(0, 110, 255);
+			display: inline-block;
+			color: rgb(12, 112, 57);
+			padding: 15px;
+			border-radius: 130%;
+			width: 350px;
+			text-align: center;
+		}
+		.div4:visited {
+			border: 2px dashed rgb(208, 255, 0);
+			background-color: rgb(29, 105, 206);
+			display: inline-block;
+			color: rgb(112, 12, 12);
+			padding: 15px;
+			border-radius: 100%;
+			width: 350px;
+			text-align: center;
+		}
+	
+		
+	</style>
+</head>
+<body>
+	<section>
+		<h1>
+			text decaration.Psuade klaslar
+		</h1>
+		<h3>
+			text-decoration xossasi matnning tagiga, ustiga yoki o'rtasiga chiziq chizish uchun ishlatiladi. Asosan vizual effektlar va havolalardagi (link) tagchiziqlarni olib tashlash uchun qo'llaniladi.
+		</h3>
+		
+		<p class="p1">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, optio deleniti libero porro hic eum quibusdam nihil consequuntur, illum impedit, repellendus minima tempore suscipit odio architecto consequatur perferendis laboriosam. Voluptates.
+		</p>
+		<p class="p2">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, facere voluptates itaque facilis hic ratione rem, perferendis soluta accusantium nobis vel illum. Ad, quasi praesentium nisi vero esse fugit repudiandae, atque dicta doloribus itaque amet numquam. Nulla corrupti ipsum quo cum, sed similique ea vel error cupiditate nihil. Doloremque deleniti consequatur cumque sint, ab laboriosam voluptate commodi! Rerum, eius cumque pariatur voluptates consectetur itaque commodi nihil totam, nisi similique consequuntur?
+		</p>
+		<p class="p3">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. A provident non deleniti, nisi aperiam, voluptate facere quidem minus similique commodi cumque praesentium voluptas. Error aut vitae quaerat. Eveniet, quo repudiandae! Eos voluptates aut, veritatis, culpa sequi iure nesciunt recusandae obcaecati inventore maxime, commodi sapiente dicta ex adipisci. Facere nostrum error deleniti iure vero sunt quibusdam, accusantium quia quisquam eveniet eius suscipit illum doloremque sequi amet dignissimos ab vel eum?
+		</p>
+		<p class="p4">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, dolorem. Unde aperiam modi dolorem placeat doloribus provident quae quia ratione recusandae assumenda cum, repudiandae eveniet esse officia nobis molestias similique fuga fugiat temporibus explicabo perferendis deleniti. Veritatis eum voluptas praesentium hic. Ipsam quisquam nisi possimus ullam beatae, modi ea eligendi ipsum repudiandae suscipit tenetur enim quos ut natus temporibus reprehenderit ex eius alias, voluptatibus, qui aspernatur accusamus neque deleniti. Vero et eaque suscipit debitis, laboriosam modi impedit ex itaque voluptatem.
+		</p>
+		<p class="p5">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui, consequuntur quis sequi, alias possimus nisi dolorem deserunt nemo illum harum dolorum facere. Temporibus commodi distinctio numquam cumque asperiores tempore explicabo blanditiis nesciunt libero minima dolores similique tenetur ex repellendus sequi eius itaque voluptatum architecto illum aut labore officiis, hic culpa? Magnam voluptas debitis suscipit possimus cumque ullam iure natus repellendus doloribus illo dignissimos animi cum obcaecati odio, vel accusantium libero ipsum magni omnis aspernatur blanditiis.
+		</p>
+		<p class="p6">
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum cum itaque aperiam, laudantium voluptatum sed qui minima illo maiores neque iure inventore doloribus excepturi modi consequatur quas ipsum quisquam necessitatibus placeat, enim a praesentium numquam. Animi modi reprehenderit ut vel consectetur nulla a rem porro!
+		</p>
+	</section>
+	<!-- Pseude klaslar -->
+	<section>
+
+<h1>
+			Psevdo-klasslar — bu elementning ma'lum bir holatiga uslub (style) berish uchun ishlatiladigan kalit so'zlardir. Ular element nomidan keyin ikki nuqta (:) bilan yoziladi.
+		</h1>
+		<ol>
+    <li><strong>:hover</strong> - Sichqoncha ko'rsatkichi element ustiga olib kelinganda ishga tushadi.</li>
+    <li><strong>:active</strong> - Element bosib turilgan (kliklangan) paytda faollashadi.</li>
+    <li><strong>:focus</strong> - Elementga e'tibor qaratilganda (masalan, input maydoniga bosib, matn yozishga tayyor bo'linganda) ishlaydi.</li>
+    <li><strong>:visited</strong> - Foydalanuvchi avval kirib ko'rgan havolalar (linklar) uchun ishlatiladi.</li>
+</ol>
+
+<div class="div1">
+	<p>sariq rangli matn</p>
+	
+</div>
+<div class="div2">
+	<p>sichqonchaga bosing</p>
+	
+</div>
+<div class="div3">
+	<p>etibor qaratish</p>
+	
+</div>
+<div class="div4">
+	<p>linklar</p>
+	
+</div>
+	</section>
+	<section>
+		
+	</section>
+</body>
+</html>
